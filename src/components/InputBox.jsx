@@ -24,10 +24,10 @@ function InputBox({
                     id={amountInputId}
                     className="outline-none w-full h-14 bg-transparent py-1.5 text-2xl"
                     type="number"
-                    // placeholder="Amount"
+                    placeholder="Amount"
                     disabled = {amountDisabled}
-                    // value={amount}
-                    placeholder={amount}
+                    value={amount}
+                    // placeholder={amount}
                     onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))}
                 />
             </div>
